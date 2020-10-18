@@ -8,7 +8,7 @@ All projects in Testlio contain issues. Issues describe problems and bugs, found
 #### Preparations and workflow
 * Create your own git branch in the format `solution/{forename}-{surname}`, e.g. `solution/peter-griffin`
 * We encourage you to commit often, but feel free to use whatever approach works best for you
-* Currently the project repository has no remote set up, but we shall do it in the end of the task so you can also push your branch and demo your work
+* Currently the project repository has no remote set up, please keep it that way
 
 #### Currently implemented:
 * Part of REST API (discovery and fetching single issue) using [Node.js](https://nodejs.org) and [koa](http://koajs.com/)
@@ -240,7 +240,6 @@ _Example flow:_
 
 * Install dependencies: `npm install`
 * Start the local issue-service server: `npm start`
-* Start the MySQL server: `mysql.server start`
 
 ## References
 
