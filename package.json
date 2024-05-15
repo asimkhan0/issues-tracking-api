@@ -1,22 +1,18 @@
 {
-  "name": "api",
+  "name": "issue-api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "engines": {
-    "node": "7.7.2"
-  },
   "dependencies": {
-    "koa": "^2.1.0",
-    "koa-bodyparser": "^4.2.0",
-    "koa-router": "^7.0.0",
-    "mysql": "^2.13.0",
-    "sequelize": "^3.30.4"
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "mysql2": "^3.9.7",
+    "sequelize": "^6.37.3"
   },
-  "author": "",
+  "author": "Testlio",
   "license": "ISC"
 }
