@@ -64,14 +64,14 @@ _For example:_
 
 ```json
 {
-"issue": {
-    "title": "Bug in issue-service",
-    "description": "It does not generate revisions"
-},
-"changes": {
-    "description": "It does not generate revisions"
-},
-"updatedAt": "2024-03-29T15:40:42.000Z"
+    "issue": {
+        "title": "Bug in issue-service",
+        "description": "It does not generate revisions"
+    },
+    "changes": {
+        "description": "It does not generate revisions"
+    },
+    "updatedAt": "2024-03-29T15:40:42.000Z"
 }
 ```
 
