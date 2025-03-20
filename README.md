@@ -5,7 +5,7 @@
 
 All projects in Testlio contain issues. Issues describe problems and bugs, found by testers in client applications. Your job is to create a simple REST API to manage issue entities.
 
-An initial project with some example code has been set up for you, but you're not limited to these tools & structure, feel free to make changes if you need to.
+An initial project with some example code has been set up for you, but you're not limited to these tools & structure, feel free to make changes if you need to. The API must be implemented in Node.js. 
 
 ## Development environment
 
@@ -84,6 +84,7 @@ Requirements:
 ### Task 5: Implement authentication
 
 * Require a valid JWT token to be present for all requests (except for the discovery and health endpoints)
+* Clients must include an X-Client-ID header in every request. 
 * Every time a change is made to the DB, store the change author's email address (i.e. `created_by`, `updated_by`).  
 
 ### Task 6: Before and after comparison
