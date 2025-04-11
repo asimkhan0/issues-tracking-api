@@ -1,0 +1,9 @@
+CREATE TABLE issue_db.revisions (
+  id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  issue_id INT(6) UNSIGNED NOT NULL,
+  issue_data JSON NOT NULL,
+  changes JSON NOT NULL,
+  created_by VARCHAR(100) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT now(),
+  FOREIGN KEY (issue_id) REFERENCES issues(id) ON DELETE CASCADE
+);
