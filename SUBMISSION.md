@@ -99,3 +99,17 @@ The authentication flow uses industry-standard JWT tokens:
 4. Controllers use the extracted user information to track who made changes
 
 This approach provides a secure and stateless authentication mechanism that scales well.
+
+### Task 6: Comparing Different Versions
+
+I made a simple way to see what changed between two versions of an issue. Here's how it works:
+
+- You can send two version IDs to `/issues/:id/revisions/compare` to compare them
+- The system checks if both versions exist and belong to the right issue
+- It figures out which version came first
+- You can compare versions from old-to-new or new-to-old
+- You'll get back:
+  - What the issue looked like in the older version
+  - What it looks like in the newer version
+  - A list of what changed
+  - All the versions in between these two points
