@@ -1,9 +1,9 @@
 
-# Testlio coding assignment (backend)
+# coding assignment (backend)
 
 ## Description
 
-All projects in Testlio contain issues. Issues describe problems and bugs, found by testers in client applications. Your job is to create a simple REST API to manage issue entities.
+All projects in - contain issues. Issues describe problems and bugs, found by testers in client applications. Your job is to create a simple REST API to manage issue entities.
 
 An initial project with some example code has been set up for you, but you're not limited to these tools & structure, feel free to make changes if you need to. The API must be implemented in Node.js. 
 
@@ -56,7 +56,7 @@ A sample issue to illustrate the issue item structure:
 
 ### Task 4: Implement issue revisions
 
-Issues being one of the central models of Testlio, it is important to track the changes made to them. Every time a change is made to an issue, we want to track what exactly was changed, by whom and when.
+Issues being one of the central models of -, it is important to track the changes made to them. Every time a change is made to an issue, we want to track what exactly was changed, by whom and when.
 
 Each change is a **revision**, containing the issue current state and the changes made.
 

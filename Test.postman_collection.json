@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "aa3c814d-18f2-4476-8e60-e9c58ad1fb50",
-		"name": "Testlio",
+		"name": "Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "44012630"
 	},
@@ -14,7 +14,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{testlio-token}}",
+							"value": "{{test-token}}",
 							"type": "string"
 						}
 					]
@@ -106,7 +106,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{testlio-token}}",
+							"value": "{{test-token}}",
 							"type": "string"
 						}
 					]
@@ -166,7 +166,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "{{testlio-token}}",
+							"value": "{{test-token}}",
 							"type": "string"
 						}
 					]
@@ -301,7 +301,7 @@
 			"value": "test-client"
 		},
 		{
-			"key": "testlio-token",
+			"key": "test-token",
 			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE3NDQ0ODU0NzMsImNsaWVudElkIjoidGVzdC1jbGllbnQiLCJleHAiOjE3NDQ1NzE4NzN9.Tja406geU9vKw-pRZniWSPyeMcLaIsrLyHcCmIA72iw"
 		}
 	]

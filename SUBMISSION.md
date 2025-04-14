@@ -1,8 +1,8 @@
-# Testlio Backend Coding Assignment - Implementation Documentation
+# - Backend Coding Assignment - Implementation Documentation
 
 ## Overview
 
-This document outlines the implementation of the Testlio backend coding assignment, which involved creating a REST API for managing issue entities. The implementation covers all the required tasks, from basic CRUD operations to more advanced features like revision tracking and authentication.
+This document outlines the implementation of the - backend coding assignment, which involved creating a REST API for managing issue entities. The implementation covers all the required tasks, from basic CRUD operations to more advanced features like revision tracking and authentication.
 
 ## Implementation Details
 

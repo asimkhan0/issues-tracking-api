@@ -7,5 +7,5 @@ module.exports = {
     database: process.env.DB_NAME,
     port: process.env.DB_PORT,
   },
-  jwtSecret: process.env.JWT_SECRET || 'testlio-secret-key'
+  jwtSecret: process.env.JWT_SECRET || 'secret-key'
 };
